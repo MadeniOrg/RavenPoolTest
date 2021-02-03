@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "async": "*",
+    "base58-native": "*",
+    "big-integer": "^1.6.48",
+    "bignum": "^0.13.1",
+    "bitcoinjs-lib": "git+https://github.com/bitcoinjs/bitcoinjs-lib.git",
+    "merkle-bitcoin": "git+https://github.com/boolpath/merkle-bitcoin.git",
+    "promise": "*",
+    "sha3": "git+https://github.com/phusion/node-sha3.git"
+  },
+  "deprecated": false,
+  "description": "High performance Stratum poolserver in Node.js",
+  "engines": {
+    "node": ">=7"
+  },
+  "homepage": "https://github.com/RavenCommunity/kawpow-stratum-pool",
+  "keywords": [
+    "stratum",
+    "mining",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "Ravencoin",
+    "kawpow"
+  ],
+  "license": "GPL-2.0",
+  "main": "lib/index.js",
+  "name": "stratum-pool",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git"
+  },
+  "version": "0.1.6"
+}
